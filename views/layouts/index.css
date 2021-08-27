@@ -1,0 +1,27 @@
+.justform{
+
+margin-top: 7rem;
+margin-right: 0.5rem;
+
+}
+
+.pass{
+    margin-top: 0.5rem;
+}
+
+
+::placeholder{
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.submitBtn{
+
+    text-align: center;
+    margin-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    
+    
+}
