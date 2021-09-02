@@ -1,0 +1,23 @@
+<!--INITIATILISING A STICKY NAVBAR ON SCROLL-->
+    <div class="row">
+        <div class="col">
+        <div class="navbar navbar fixed-top navbar-light bg-white shadow-sm">
+          <div class="col-3">
+            <i class="fas fa-university fa-3x" style="color: #292F69;"></i>
+            <a href="#" class="navbar-brand mainHeader" style="font-family:'Times New Roman',
+            Times, serif; margin-bottom: 0,5rem; color:#292F69;">Microsoft App Factory Interns</a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!--END OF NAVBAR-->
+
+<h1 style="margin-top: 7rem; text-align:center">{{ title}}</h1>
+
+<br>
+<ul class="list-group">
+    {{#each Employee_collect}}
+    <li class="list-group-item">{this.last_name}</li>
+    {{/each}}
+</ul>
